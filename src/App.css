@@ -1,0 +1,46 @@
+.aa {
+  height: 150%;
+  width: 10%;
+}
+.backgroundimage {
+  background-image: url("./fb2.jpg");
+  background-attachment: fixed;
+  z-index: 100;
+
+  background-size: cover;
+  background-position: top;
+  min-height: 100%;
+  height: 100vh;
+  position: relative;
+}
+.button {
+  background-color: #1c369d;
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  margin-top: 10px;
+  color: white;
+  border-radius: 7px;
+}
+.user {
+  margin-top: 60%;
+  margin-left: 10%;
+  height: 40px;
+  width: 80%;
+  border-radius: 7px;
+}
+.pass {
+  width: 80%;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10%;
+  border-radius: 7px;
+}
+.alert {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  z-index: 199;
+  position: fixed;
+  margin-top: 100px;
+}
